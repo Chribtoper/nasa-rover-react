@@ -1,25 +1,37 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './stylesheets/App.css'
+import Calendar from './containers/Calendar'
+import MarsMap from './containers/MarsMap'
+import ControlPanel from './containers/ControlPanel'
+import { Grid } from 'semantic-ui-react'
+
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Grid celled>
+          <Grid.Row>
+            <Grid.Column width={13}>
+
+              <MarsMap />
+
+            </Grid.Column>
+            <Grid.Column width={3}>
+
+              <ControlPanel />
+
+            </Grid.Column>
+          </Grid.Row>
+          <Grid.Row>
+            <Grid.Column>
+
+              <Calendar />
+
+            </Grid.Column>
+          </Grid.Row>
+        </Grid>
       </div>
     );
   }
