@@ -1,0 +1,10 @@
+.Timeline-line {
+  z-index: -1;
+  position: absolute;
+  height: 1.5px;
+  left: 0;
+  right: 0;
+  margin: auto 10px;
+  /* margin-right: 10px; */
+  /* top: -2em; */
+}

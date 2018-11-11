@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 import './stylesheets/App.css'
-import Calendar from './containers/Calendar'
+import NewCal from './containers/NewCal'
 import MarsMap from './containers/MarsMap'
 import ControlPanel from './containers/ControlPanel'
 import { Grid } from 'semantic-ui-react'
-
+import { fetchMissionUpdates } from './services/Adapter'
 
 class App extends Component {
+
+
+  componentDidMount(){
+    fetchMissionUpdates()
+  }
+
 
   render() {
     return (
@@ -27,7 +33,7 @@ class App extends Component {
           <Grid.Row>
             <Grid.Column>
 
-              <Calendar />
+              <NewCal />
 
             </Grid.Column>
           </Grid.Row>
