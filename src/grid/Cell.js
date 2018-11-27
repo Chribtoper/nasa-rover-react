@@ -1,10 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Rover from '../components/Rover';
 
-const Cell = () => {
+const Cell = ({location, cellWidth, cellHeight}) => {
+
+
 
   return(
     <div className="cell">
-      hey
+      {location != undefined ? <Rover  /> : null}
     </div>
   )
 }

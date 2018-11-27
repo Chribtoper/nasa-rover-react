@@ -1,0 +1,21 @@
+#map {
+  background-image: url("https://i.imgur.com/vrwzkpy.png");
+  background-size: 100%;
+  position: relative;
+  width: 100%;
+  height: 695px;
+
+  min-width: 1244px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.cell {
+  border: 0.5px solid black;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,9 +1,11 @@
 function cos(deg) {
     return Math.cos(deg * Math.PI / 180);
 }
+
 function sin(deg) {
     return Math.sin(deg * Math.PI / 180);
 }
+
 function h_to_hms(h) {
     var x = h * 3600;
     var hh = Math.floor(x / 3600);
@@ -15,17 +17,7 @@ function h_to_hms(h) {
     if (ss < 10) ss = "0" + ss;
     return hh + ":" + mm + ":" + ss;
 }
-function add_commas(n) {
-    n += "";
-    var x = n.split(".");
-    var x1 = x[0];
-    var x2 = x.length > 1 ? "." + x[1] : "";
-    var rgx = /(\d+)(\d{3})/;
-    while (rgx.test(x1)) {
-        x1 = x1.replace(rgx, "$1" + "," + "$2");
-    }
-    return x1 + x2;
-}
+
 function within_24(n) {
     if (n < 0) {
         n += 24;
@@ -71,12 +63,19 @@ var eot_h = eot * 24 / 360;
 var msd = (((j2000 - 4.5) / 1.027491252) + 44796.0 - 0.00096);
 var mtc = (24 * msd) % 24;
 
-var curiosity_lambda = 360 - 137.4;
-var curiosity_sol = Math.floor(msd - curiosity_lambda / 360) - 49268;
-var curiosity_lmst = within_24(mtc - curiosity_lambda * 24 / 360);
-var curiosity_ltst = within_24(curiosity_lmst + eot * 24 / 360);
+export const curiosity_lambda = 360 - 137.4;
+export const curiosity_sol = Math.floor(msd - curiosity_lambda / 360) - 49268;
+export const curiosity_lmst = within_24(mtc - curiosity_lambda * 24 / 360);
+export const curiosity_ltst = within_24(curiosity_lmst + eot * 24 / 360);
 
 var opportunity_sol_date = msd - 46235 - 0.042431;
 var opportunity_sol = Math.floor(opportunity_sol_date);
 var opportunity_mission = (24 * opportunity_sol_date) % 24;
 var opportunity_ltst = within_24(opportunity_mission + eot * 24 / 360);
+
+
+class Rover {
+
+
+
+}
