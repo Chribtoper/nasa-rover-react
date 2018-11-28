@@ -11,8 +11,6 @@ const Row = ({y, cellCount}) => {
     return array
   }
 
-
-
   return(
     <div>
       {genCells()}

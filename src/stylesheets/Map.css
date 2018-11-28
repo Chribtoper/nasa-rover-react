@@ -20,6 +20,9 @@
   align-items: center;
 }
 
-.rover:hover .roverLabel {
-  display: block
+.rover {
+  width: "10px",
+  height: "10px",
+  backgroundColor: "blue",
+  border: "2px solid red"
 }
