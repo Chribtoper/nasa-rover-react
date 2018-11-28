@@ -1,14 +1,16 @@
 import React from 'react';
+import { List, Segment } from 'semantic-ui-react'
+import '../stylesheets/Info.css'
 
-const Manifest = () => {
+const Manifest = ({roverName, plannedSolDuration, leftEarth}) => {
 
   return(
-    <p>
-      Manifest:
-      Rover:
-      Total Planned Mission Sols:
-      Left Eart On:
-    </p>
+    <Segment style={{textAlign: "left"}}>
+      <h2 className="header">Manifest</h2>
+      <p>Rover: {roverName}</p>
+      <p>Total Planned Mission Sols: {plannedSolDuration}</p>
+      <p>Left Earth On: {leftEarth}</p>
+    </Segment>
   )
 }
 

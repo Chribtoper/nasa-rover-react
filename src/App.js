@@ -34,13 +34,16 @@ class App extends Component {
     return this.state.logs.filter( location => location.sol <= this.state.selectedSol )
   }
 
+  returnCurrentSol = () => {
+    return this.state.logs.find( location => location.sol === this.state.selectedSol )
+  }
+
 
   render() {
     return (
       <div className="App">
         <Grid celled>
           <Grid.Column width={13}>
-
 
             <Map logs={this.filterLocations()} />
             <Timeline
@@ -50,10 +53,9 @@ class App extends Component {
             />
 
           </Grid.Column>
-
           <Grid.Column width={3}>
 
-              <Info />
+            <Info currentSol={this.returnCurrentSol()} manifest={this.state.manifest} />
 
           </Grid.Column>
         </Grid>

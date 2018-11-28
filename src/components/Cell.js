@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import Rover from './Rover';
 
-const Cell = ({location, cellWidth, cellHeight}) => {
-
-
+const Cell = ({location, selectedSol}) => {
 
   return(
     <div className="cell">
-      {location ? <Rover sol={location.sol}  /> : null}
+      {location ? <Rover sol={location.sol} /> : null}
     </div>
   )
 }
