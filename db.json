@@ -1,222 +1,369 @@
 {
   "logs":[
     { "id": 1,
+      "sol": 1,
       "position": {
         "x": 1,
         "y": 1
       },
-      "sol": 1
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FLB_486265257EDR_F0481570FHAZ00323M_.JPG",
+        "status": "active",
+        "camera": "Front Hazard Avoidance Camera"
+      }
     },
     { "id": 2,
+      "sol": 2,
       "position": {
         "x": 2,
         "y": 2
       },
-      "sol": 2
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01001/opgs/edr/rcam/RLB_486349645EDR_F0481570RHAZ00323M_.JPG",
+        "status": "active",
+        "camera": "Rear Hazard Avoidance Camera"
+      }
     },
     { "id": 3,
+      "sol": 3,
       "position": {
         "x": 3,
         "y": 3
       },
-      "sol": 3
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/msss/01003/mcam/1003MR0044830340503808C00_DXXX.jpg",
+        "status": "active",
+        "camera": "Mast Camera"
+      }
     },
     { "id": 4,
+      "sol": 4,
       "position": {
         "x": 4,
         "y": 4
       },
-      "sol": 4
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01004/opgs/edr/rcam/RRB_486615482EDR_F0481570RHAZ00323M_.JPG",
+        "status": "active",
+        "camera": "Rear Hazard Avoidance Camera"
+      }
     },
     { "id": 5,
+      "sol": 5,
       "position": {
         "x": 5,
         "y": 5
       },
-      "sol": 5
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01100/opgs/edr/fcam/FLB_495148509EDR_F0492902FHAZ00302M_.JPG",
+        "status": "active",
+        "camera": "Rear Hazard Avoidance Camera"
+      }
     },
     { "id": 6,
+      "sol": 6,
       "position": {
         "x": 6,
         "y": 6
       },
-      "sol": 6
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01500/opgs/edr/fcam/FLB_530660118EDR_F0582394FHAZ00318M_.JPG",
+        "status": "active",
+        "camera": "Front Hazard Avoidance Camera"
+      }
     },
     { "id": 7,
+      "sol": 7,
       "position": {
         "x": 7,
         "y": 7
       },
-      "sol": 7
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/msss/01501/mcam/1501ML0076110010603967E01_DXXX.jpg",
+        "status": "active",
+        "camera": "Mast Camera"
+      }
     },
     { "id": 8,
+      "sol": 8,
       "position": {
         "x": 8,
         "y": 8
       },
-      "sol": 8
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/msss/01502/mcam/1502ML0076210020603985E01_DXXX.jpg",
+        "status": "active",
+        "camera": "Mast Camera"
+      }
     },
     { "id": 9,
+      "sol": 9,
       "position": {
         "x": 9,
         "y": 9
       },
-      "sol": 9
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01599/opgs/edr/ncam/NLB_539447405EDR_S0602928NCAM00575M_.JPG",
+        "status": "active",
+        "camera": "Navigation Camera"
+      }
     },
     { "id": 10,
+      "sol": 10,
       "position": {
         "x": 10,
         "y": 10
       },
-      "sol": 10
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/msss/01650/mrdi/1650MD0006470000200697E01_DXXX.jpg",
+        "status": "active",
+        "camera": "Mars Descent Imager"
+      }
     },
     { "id": 11,
+      "sol": 11,
       "position": {
         "x": 11,
         "y": 11
       },
-      "sol": 11
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01650/opgs/edr/ncam/NRB_543989085EDR_F0620108NCAM00320M_.JPG",
+        "status": "active",
+        "camera": "Navigation Camera"
+      }
     },
     { "id": 12,
+      "sol": 12,
       "position": {
         "x": 12,
         "y": 12
       },
-      "sol": 12
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01650/opgs/edr/ncam/NRB_543989085EDR_F0620108NCAM00320M_.JPG",
+        "status": "active",
+        "camera": "Navigation Camera"
+      }
     },
     { "id": 13,
+      "sol": 13,
       "position": {
         "x": 13,
         "y": 13
       },
-      "sol": 13
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01670/soas/rdr/ccam/CR0_545745973PRC_F0621080CCAM15903L1.PNG",
+        "status": "active",
+        "camera": "Chemistry and Camera Complex"
+      }
     },
     { "id": 14,
+      "sol": 14,
       "position": {
         "x": 14,
         "y": 14
       },
-      "sol": 14
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01700/opgs/edr/ncam/NRB_548415297EDR_F0631420NCAM00276M_.JPG",
+        "status": "active",
+        "camera": "Navigation Camera"
+      }
     },
     { "id": 15,
+      "sol": 15,
       "position": {
         "x": 15,
         "y": 15
       },
-      "sol": 15
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01710/opgs/edr/ncam/NRB_549312635EDR_F0631840NCAM00207M_.JPG",
+        "status": "active",
+        "camera": "Navigation Camera"
+      }
     },
     { "id": 16,
+      "sol": 16,
       "position": {
         "x": 16,
         "y": 16
       },
-      "sol": 16
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01780/opgs/edr/rcam/RRB_555531342EDR_F0642790RHAZ00337M_.JPG",
+        "status": "active",
+        "camera": "Front Hazard Avoidance Camera"
+      }
     },
     { "id": 17,
+      "sol": 17,
       "position": {
         "x": 17,
         "y": 17
       },
-      "sol": 17
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01775/opgs/edr/fcam/FRB_555078469EDR_F0642790FHAZ00341M_.JPG",
+        "status": "active",
+        "camera": "Front Hazard Avoidance Camera"
+      }
     },
     { "id": 18,
+      "sol": 18,
       "position": {
         "x": 18,
         "y": 18
       },
-      "sol": 18
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01745/opgs/edr/ccam/CR0_552414610EDR_F0641626CCAM04744M_.JPG",
+        "status": "active",
+        "camera": "Chemistry and Camera Complex"
+      }
     },
     { "id": 19,
+      "sol": 19,
       "position": {
         "x": 19,
         "y": 19
       },
-      "sol": 19
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01680/opgs/edr/ncam/NRB_546643032EDR_F0622452NCAM07753M_.JPG",
+        "status": "active",
+        "camera": "Navigation Camera"
+      }
     },
     { "id": 20,
+      "sol": 20,
       "position": {
         "x": 20,
         "y": 20
       },
-      "sol": 20
+      "data": {
+        "imgUrl": "",
+        "status": "active",
+        "camera": "Front Hazard Avoidance Camera"
+      }
     },
     { "id": 21,
+      "sol": 21,
       "position": {
         "x": 21,
         "y": 21
       },
-      "sol": 21
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01745/opgs/edr/ccam/CR0_552413246EDR_F0641626CCAM03744M_.JPG",
+        "status": "active",
+        "camera": "Chemistry and Camera Complex"
+      }
     },
     { "id": 22,
+      "sol": 22,
       "position": {
         "x": 22,
         "y": 22
       },
-      "sol": 22
+      "data": {
+        "imgUrl": null,
+        "status": "unresponsive",
+        "camera": null
+      }
     },
     { "id": 23,
+      "sol": 23,
       "position": {
         "x": 23,
         "y": 23
       },
-      "sol": 23
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01680/opgs/edr/ncam/NRB_546636824EDR_F0622452NCAM00262M_.JPG",
+        "status": "active",
+        "camera": "Navigation Camera"
+      }
     },
     { "id": 24,
+      "sol": 24,
       "position": {
         "x": 24,
         "y": 24
       },
-      "sol": 24
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/msss/01600/mcam/1600ML0081460280505306E01_DXXX.jpg",
+        "status": "active",
+        "camera": "Mast Camera"
+      }
     },
     { "id": 25,
+      "sol": 25,
       "position": {
         "x": 25,
         "y": 25
       },
-      "sol": 25
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01600/opgs/edr/fcam/FLB_539548779EDR_F0602928FHAZ00337M_.JPG",
+        "status": "active",
+        "camera": "Front Hazard Avoidance Camera"
+      }
     },
     { "id": 26,
+      "sol": 26,
       "position": {
         "x": 26,
         "y": 26
       },
-      "sol": 26
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01100/opgs/edr/fcam/FLB_495148509EDR_F0492902FHAZ00302M_.JPG",
+        "status": "active",
+        "camera": "Front Hazard Avoidance Camera"
+      }
     },
     { "id": 27,
+      "sol": 27,
       "position": {
         "x": 27,
         "y": 27
       },
-      "sol": 27
+      "data": {
+        "imgUrl": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01700/opgs/edr/ncam/NRB_548415162EDR_F0631420NCAM00353M_.JPG",
+        "status": "active",
+        "camera": "Navigation Camera"
+      }
     },
     { "id": 28,
+      "sol": 28,
       "position": {
         "x": 28,
         "y": 28
       },
-      "sol": 28
+      "data": {
+        "imgUrl": null,
+        "status": "unresponsive",
+        "camera": null
+      }
     },
     { "id": 29,
+      "sol": 29,
       "position": {
         "x": 29,
         "y": 29
       },
-      "sol": 29
+      "data": {
+        "imgUrl": null,
+        "status": "unresponsive",
+        "camera": null
+      }
     },
     { "id": 30,
+      "sol": 30,
       "position": {
         "x": 30,
         "y": 30
       },
-      "sol": 30
+      "data": {
+        "imgUrl": null,
+        "status": "unresponsive",
+        "camera": null
+      }
     }
   ],
   "manifest": {
     "roverName": "The Avi3000",
-    "imgUrl": "",
-    "currentSol": 40,
     "plannedSolDuration": 50,
-    "leftEarth": "1/1/2018",
-    "status": "All Systems Good"
+    "leftEarth": "1/1/2018"
   }
 }

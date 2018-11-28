@@ -21,7 +21,7 @@ export function fetchManifest(){
     .then(res=>res.json())
 }
 
-export function fetchJourney(){
-  return fetch("http://localhost:4000/journey")
+export function fetchLogs(){
+  return fetch("http://localhost:4000/logs")
     .then(res=>res.json())
 }

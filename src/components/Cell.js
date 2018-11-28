@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Rover from '../components/Rover';
+import Rover from './Rover';
 
 const Cell = ({location, cellWidth, cellHeight}) => {
 

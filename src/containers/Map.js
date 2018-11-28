@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../stylesheets/Map.css';
-import Row from '../grid/Row';
+import Row from '../components/Row';
 import { Segment } from 'semantic-ui-react'
 
 class Map extends Component {
@@ -30,7 +30,7 @@ class Map extends Component {
     let array = []
 
     for(let y = 1; y <= this.state.colCount; y++){
-      let locations = this.props.journey.filter( coord => coord.position.y === y )
+      let locations = this.props.logs.filter( coord => coord.position.y === y )
       array.push(<Row y={y} locations={locations} cells={this.state.rowCount} key={`row-${y}`}/>)
     }
     return array
