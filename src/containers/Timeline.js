@@ -1,20 +1,32 @@
-import React, { Fragment } from 'react'
+import React, { Component } from 'react'
 import { Button, Progress } from 'semantic-ui-react'
 import { Slider } from 'react-semantic-ui-range'
 
 
-const Timeline = ({selectedSol, selectSol, max}) => {
+class Timeline extends Component {
+  state = {
+    value: 0
+  }
 
-  return (
-    <Slider color="red" inverted={false}
+  // these values are just an example
+
+  handleChange = (value) => {
+    this.setState({value}, ()=>{console.log(this.state.value)})
+
+  }
+
+  render(){
+    return (
+      <Slider color="red" inverted={false}
       settings={{
-      start: selectedSol,
-      min:0,
-      max: max,
-      step:1,
-      onChange: (value) => {selectSol(value)}}}
-   />
-  )
+        start: this.state.value,
+        min:0,
+        max: 100,
+        step:1,
+        onChange: (value) => {this.handleChange(value)}}}
+        />
+      )
+  }
 }
 
 export default Timeline;

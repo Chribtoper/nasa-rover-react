@@ -12,7 +12,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div style={{minWidth: 1680}} className="App">
         <Grid celled>
           <Grid.Column width={13}>
 

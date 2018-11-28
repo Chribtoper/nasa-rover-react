@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Rover from './Rover';
 
-const Cell = ({location, cellWidth, cellHeight}) => {
+const Cell = () => {
 
-
+  // A cell should contain a <Rover /> sometimes...
 
   return(
     <div className="cell">
-      {location ? <Rover sol={location.sol}  /> : null}
+
     </div>
   )
 }

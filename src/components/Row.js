@@ -1,26 +1,23 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Cell from './Cell'
 
-const Row = () => {
+const Row = ({y, cellCount}) => {
 
-  // genCells(){
-  //   let array = []
-  //   for(let x = 1; x <= this.props.cells; x++){
-  //     let location = this.props.locations.find( coord => coord.position.x === x)
-  //     // let node = this.props.nodes.find( node => node.Location.X == x)
-  //     array.push(<Cell x={x} location={location} key={`cell-${x}`} />)
-  //   }
-  //   return array
-  // }
-
-
-  render(){
-    return(
-      <div>
-        {this.genCells(this.props.cells)}
-      </div>
-    )
+  const genCells = () => {
+    let array = []
+    for(let x = 1; x <= cellCount; x++){
+      array.push(<Cell x={x} y={y} key={x} />)
+    }
+    return array
   }
+
+
+
+  return(
+    <div>
+      {genCells()}
+    </div>
+  )
 }
 
 export default Row

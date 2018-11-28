@@ -1,16 +1,22 @@
 import React from 'react';
+import { List, Segment, Card, Icon, Image } from 'semantic-ui-react';
 import '../stylesheets/Sol.css';
 
 const Sol = () => {
 
   return (
-    <div>
-      <div className="solClock">
-        Sol 25
-      </div>
-      <img src="https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01001/opgs/edr/fcam/FLB_486349618EDR_F0481570FHAZ00323M_.JPG" style={{width: "50px"}} />
-      Status: GREEN
-    </div>
+    <Segment>
+      <h2 className="header">Sol {"THE CURRENT SOL PLEASE"}</h2>
+      <Image src={"https://image4.owler.com/logo/the-flatiron-school_owler_20160226_213942_original.png"} />
+      <Card>
+        <Card.Content>
+          <Card.Meta>CAMERA: {"WHAT CAMERA IS THIS?"}</Card.Meta>
+        </Card.Content>
+        <Card.Content extra>
+          <a>STATUS: {"WHATS THE CURRENT STATUS?"}</a>
+        </Card.Content>
+      </Card>
+    </Segment>
   )
 }
 
