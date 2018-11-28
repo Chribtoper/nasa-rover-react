@@ -7,7 +7,7 @@ const Cell = ({location, cellWidth, cellHeight}) => {
 
   return(
     <div className="cell">
-      {location != undefined ? <Rover  /> : null}
+      {location ? <Rover sol={location.sol}  /> : null}
     </div>
   )
 }

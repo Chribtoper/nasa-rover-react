@@ -1,10 +1,10 @@
 import React from 'react'
 
-const ControlPanel = () => {
+const ControlPanel = ({selectedSol}) => {
 
   return(
-    <div>
-      Hey
+    <div className="solClock">
+      Sol {selectedSol}
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image } from 'semantic-ui-react';
 
-const Rover = (props) => {
+const Rover = ({sol}) => {
 
   const style = {
     width: "10px",
@@ -11,15 +11,16 @@ const Rover = (props) => {
   }
 
   const label = {
+    position: "relative",
+    display: "none",
     fontSize: "5px",
     color: "yellow"
   }
 
 
-
   return(
-    <div>
-      <div style={label}>Sol 56</div>
+    <div className="rover">
+      <div className="roverLabel" style={label}>Sol {sol}</div>
       <div style={style}></div>
     </div>
   )

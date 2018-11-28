@@ -40,14 +40,9 @@ class App extends Component {
       <div className="App">
         <Grid celled>
           <Grid.Row>
-            <Grid.Column width={13}>
+            <Grid.Column width={16}>
 
               <Map journey={this.filterLocations()} />
-
-            </Grid.Column>
-            <Grid.Column width={3}>
-
-              <ControlPanel />
 
             </Grid.Column>
           </Grid.Row>
@@ -58,6 +53,9 @@ class App extends Component {
                 selectSol={this.selectSol}
                 selectedSol={this.state.selectedSol}
                 max={this.state.manifest.plannedSolDuration}
+              />
+              <ControlPanel
+                selectedSol={this.state.selectedSol}
               />
 
             </Grid.Column>
