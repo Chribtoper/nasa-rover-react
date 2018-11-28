@@ -1,15 +1,11 @@
 # NASA Rover Interface
 
-![alt main](https://cdn-images-1.medium.com/max/2000/1*BnjGd8N6zu9-Fe6stEJDEg.png)
-
 
 Overview
 ========
 NASA just dropped yet another Rover on Mars: The Avi3000. But it needs your help to create an interface to help manage all the data it's sending back. Your job will be to build an interface to display the locations the Rover has visited as well as information about each place.
 
 NOTE: a Sol is a Martian day.
-
-![alt map](https://i.imgur.com/mPo0UYQ.png)
 
 Setup
 =====
