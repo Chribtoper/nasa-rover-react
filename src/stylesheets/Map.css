@@ -21,8 +21,8 @@
 }
 
 .rover {
-  width: "10px",
-  height: "10px",
-  backgroundColor: "blue",
-  border: "2px solid red"
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  border: 2px solid red;
 }
